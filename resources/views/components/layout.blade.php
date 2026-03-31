@@ -8,9 +8,12 @@
 <style>
     *{
         background-color: grey;
+        margin: 2px;
+        box-sizing: border-box
     }
 </style>
 <body>
-{{ $slot }}
+    <x-navbar />
+    {{ $slot }}
 </body>
 </html>
